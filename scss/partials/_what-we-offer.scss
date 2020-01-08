@@ -1,0 +1,183 @@
+#what-we-offer {
+  padding-bottom: 40px;
+
+  & {
+    @media all and(min-width:1200px) {
+      padding-bottom: 120px;
+    }
+  }
+nav{
+  z-index: 9999;
+}
+  .nav {
+
+    & {
+      @media all and(min-width:476px) {
+        padding: 0.5rem 1.3rem;
+      }
+    }
+
+    & {
+      @media all and(min-width:540px) {
+        padding: 0.5rem 1.5rem;
+      }
+    }
+  }
+
+  .navbar-light {
+    .navbar-nav {
+      .nav-link {
+
+        text-transform: uppercase;
+        &{
+          @media all and(min-width:1200px){
+            padding:0 20px;
+          }
+        }
+      }
+    }
+    .navbar-toggler{
+      border:none;
+      outline: none;
+      box-shadow: none;
+      &:focus{
+        border:none;;
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+
+  #navbarSupportedContent {
+    form {
+      .btn {
+        font-size: 20px;
+        border: none;
+        color: $green;
+
+        &:hover {
+          color: $green;
+          background: transparent;
+        }
+
+        &:focus {
+          box-shadow: none;
+        }
+      }
+
+      input {
+        border: none;
+        background-color: #f8f9fa;
+        padding-left: 1px;
+      }
+    }
+
+    .form-control:focus {
+      transition: all 0.3s;
+      box-shadow: none;
+      border-bottom: solid 0.6px $green;
+    }
+  }
+
+  .head {
+    margin: 60px auto 20px;
+    text-align: center;
+
+    & {
+      @media all and(min-width:540px) {
+        margin: 82px auto 20px;
+      }
+      @media all and(min-width:1200px) {
+        margin: 120px auto 50px;
+      }
+    }
+
+    .start {
+      font-size: 20px; //font-size: 26px;
+      text-transform: uppercase;
+      @include startt;
+
+      h3 {
+        font-size: 1.6rem;
+      }
+
+      span {
+        &:nth-of-type(2) {
+          //img
+          color: $black;
+        }
+
+        &:nth-of-type(3) {
+          color: $green;
+        }
+      }
+    }
+  }
+
+  p {
+    color: #8a8a8a;
+    padding: 10px 0;
+  }
+
+  .row {
+    .col {
+      article {
+        text-align: center;
+
+        .card {
+          border: none;
+          padding: 25px 18px 10px;
+          margin: 30px auto;
+          width: 18rem;
+
+          & {
+            @media all and(min-width:1200px) {
+              padding: 25px 0 10px;
+              margin: 30px 0;
+              width: 22rem;
+            }
+          }
+
+          .icon {
+            line-height: 140px;
+            margin: 0 auto;
+            color: #e4e4e4;
+            background-color: #383838;
+            border-radius: 50%;
+            width: 140px;
+            height: 140px;
+            font-size: 60px;
+          }
+
+          h5 {
+            color: #606060;
+            text-transform: uppercase;
+            padding: 25px 0 0;
+          }
+
+          a {
+            margin-top: 10px;
+            background-color: transparent;
+            color: #8a8a8a;
+            border: solid 1px #8a8a8a;
+            border-radius: 5px;
+          }
+
+          &:hover {
+            cursor: pointer;
+
+            .icon {
+              background-color: $green;
+            }
+
+            a {
+              background-color: $green;
+              color: #e3e3e3;
+              border: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

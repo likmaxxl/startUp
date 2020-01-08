@@ -1,0 +1,77 @@
+#map {
+  .map {
+    .mp {
+      iframe {
+        height: 630px;
+      }
+    }
+
+    .form {
+      padding: 20px 0 60px;
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+
+      form {
+        padding: 20px 0;
+        background: rgb(249,249,249);
+
+        & {
+          @media all and(min-width:1200px) {
+            background-color: rgb(249,249,249);
+            border-radius: 5px;
+            padding: 20px;
+            width: 50%;
+            top: -531px;
+            position: absolute;
+            z-index: 1;
+          }
+        }
+
+        input {
+          background: rgb(249,249,249);
+          color: #999999;
+          border-color: #cccccc;
+          border-style: solid;
+          border-width: 1px;
+          border-radius: 5px;
+          font-style: italic;
+          padding: 6px;
+          width: 100%;
+          margin: 10px 0;
+
+          &:focus {
+            color: #656262;
+          }
+        }
+
+        textarea {
+          background: rgb(249,249,249);
+          margin-top: 10px;
+          padding: 6px;
+          border-style: solid;
+          border-width: 1px;
+          border-radius: 5px;
+          color: #999999;
+          font-style: italic;
+          width: 100%;
+
+          &:focus {
+            color: #595757;
+          }
+        }
+      }
+
+      .but {
+        .btn {
+          font-size: 15px;
+          background-color: $green;
+          text-transform: uppercase;
+          display: block;
+          margin: 0 auto;
+          width: 90%;
+        }
+      }
+    }
+  }
+}

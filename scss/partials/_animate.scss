@@ -1,0 +1,18 @@
+//animation1 start
+.anim1{
+  animation-name: myanim1;
+
+  animation-duration: 1s;
+  position: relative;
+  top:0;
+}
+@keyframes myanim1{
+  0%{
+      top:-600px;
+
+  }
+  100%{
+    transform:rotate(360deg);
+  top:0;
+  }
+}

@@ -1,0 +1,30 @@
+#logos {
+  padding: 40px 0;
+  background-color: rgb(54,54,54);
+
+  .carousel-item {
+    text-align: center;
+
+    img {
+      margin: 10px auto;
+      width: 70%;
+      height: 170px;
+      padding: 30px;
+
+      & {
+        @media all and(min-width:768px) {
+          width: auto;
+        }
+      }
+
+      &:hover {
+        background-color: #333333;
+        border-radius: 5px;
+      }
+    }
+
+    .logoHobNob {
+      width: 330px;
+    }
+  }
+}

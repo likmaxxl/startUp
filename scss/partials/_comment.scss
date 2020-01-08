@@ -1,0 +1,97 @@
+#comment {
+  padding: 50px 0;
+  background-color: $green;
+  text-align: center;
+
+  & {
+    @media all and(min-width:768px) {
+      padding: 80px 0;
+    }
+  }
+
+  .carousel-inner {
+    padding: 0 26px;
+  }
+
+  .butt {
+    margin-bottom: 30px;
+
+    .btn {
+      padding: 10px;
+      font-size: 15px;
+      background-color: #cccccc;
+      font-weight: 800;
+      color: $green;
+      border: none;
+
+      span {
+        font-weight: 400;
+        color: #999999;
+      }
+
+      &:hover {
+        background-color: #f3fdf9;
+      }
+    }
+  }
+
+  p {
+    font-size: 17px;
+    color: #cccccc;
+
+    span {
+      font-size: 20px;
+    }
+  }
+
+  .contro {
+    position: relative;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    .carousel-control-prev {
+      transition: all 0.4s;
+      opacity: 0.9;
+      position: static;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 4px;
+      background-color: #cccccc;
+
+      span {
+        color: $green;
+        padding-top: 28px;
+      }
+
+      &:hover {
+        cursor: pointer;
+        background-color: #bfb9b9;
+      }
+    }
+
+    .carousel-control-next {
+      transition: all 0.4s;
+      background-image: url("http://www.w3.org/2000/svg");
+      opacity: 0.9;
+      border-radius: 4px;
+      position: static;
+      background-color: #333333;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+
+      span {
+        color: #cccccc;
+        padding-top: 28px;
+      }
+
+      &:hover {
+        background-color: #191818;
+        cursor: pointer;
+      }
+    }
+  }
+}

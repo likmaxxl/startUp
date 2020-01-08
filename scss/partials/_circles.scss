@@ -1,0 +1,32 @@
+//CIRCLES
+#powerful-skils{
+  .circbckg{
+    color:#ffffff;
+   background-color: #ffffff;
+  }
+  .cir{
+    display: flex;
+    justify-content: center;
+  margin-top:30px;
+    width:100%;
+  height:150px;
+  .bluecircle{
+
+  }
+  .percircle{
+
+font-size:150px;
+span{
+  color:#ffffff;
+}
+&:after{
+  background-color:#333333;
+  width:.95em;
+  height:.95em;
+  top:4px;
+  left:4px;
+}
+  }
+
+  }
+}

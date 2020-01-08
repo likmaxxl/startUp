@@ -1,0 +1,232 @@
+#team-members {
+  padding: 25px 0;
+
+  & {
+    @media all and(min-width:768px) {
+      padding: 30px 0 80px;
+    }
+  }
+
+    & {
+      @media all and(min-width:1200px) {
+        padding: 80px 0 100px;
+      }
+    }
+
+  .head {
+    margin: 60px auto 35px;
+    text-align: center;
+    & {
+      @media all and(min-width:1200px) {
+        margin-bottom: 60px;
+
+
+      }
+    }
+    .start {
+      font-size: 20px; //font-size: 26px;
+      text-transform: uppercase;
+      @include startt;
+
+      h3 {
+        margin-bottom: 0;
+        font-size: 1.4rem;
+      }
+
+      span {
+        &:nth-of-type(2) {
+          //img
+          color: rgb(228,228,228);
+        }
+
+        &:nth-of-type(3) {
+          color: $green;
+        }
+      }
+
+    }
+  }
+
+  p {
+    color: #606060;
+    padding: 10px 22px 20px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    background-color: #333333;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: -100px;
+
+    span {
+      padding-top: 28px;
+    }
+  }
+
+  .row {
+    margin: 0 3px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .clwdth {
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      display: flex;
+      margin: 2px auto;
+      padding: 0;
+      @media all and(min-width:1200px) {
+        padding: 0 10px;
+      }
+
+      .card {
+        margin: 25px auto;
+        border: solid 1px #cccccc;
+        width: 21rem !important;
+        @media all and(min-width:992px) {
+          margin: 46px auto;
+        }
+
+        .img {
+          .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: $green;
+            overflow: hidden;
+            width: 0;
+            height: 69.28%;
+            transition: 0.5s ease;
+
+            & {
+              @media all and(min-width:1200px) {
+                height: 63.28%;
+              }
+            }
+
+            .text {
+              text-align: center;
+              color: white;
+              font-size: 20px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              white-space: nowrap;
+
+              .iconss {
+                align-items: center;
+                justify-content: center;
+                display: flex;
+
+                .icon {
+                  color: $green;
+                  border-radius: 10px;
+                  transform: rotate(133deg);
+                  width: 38px;
+                  height: 38px;
+                  line-height: 38px;
+                  background: #cccccc;
+
+                  span {
+                    display: block;
+                    transform: rotate(226deg);
+                  }
+
+                  &:hover {
+                    cursor: pointer;
+                    z-index: 1111;
+                    background: #333333;
+                    color: $green;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        &:hover {
+          .overlay {
+            display: block;
+            z-index: 0;
+            width: 100%;
+          }
+
+          .bt {
+            .btn-primary {
+              background: $black;
+            }
+          }
+        }
+      }
+    }
+
+    .card-body {
+      background-color: rgb(249,249,249);
+      text-align: center;
+
+      .bt {
+        .btn-primary {
+          position: relative;
+          z-index: 11;
+          border: none;
+          background-color: $green;
+          border-radius: 5px;
+          color: #cccccc;
+          margin-top: -69px;
+          width: 68%;
+          text-transform: uppercase;
+
+          & {
+            @media all and(min-width:1200px) {
+              width: 88%;
+            }
+          }
+
+          &:active {
+            border: none;
+          }
+
+          &:focus {
+            border: none;
+            box-shadow: 0 0 2px $green;
+          }
+        }
+      }
+
+      h5 {
+        padding-bottom: 20px;
+        color: #666666;
+        display: inline-block;
+        border-bottom: solid 0.7px #cccccc;
+      }
+
+      .cont {
+        color: #999999;
+
+        span {
+          padding: 0 5px;
+        }
+
+        &:hover {
+          color: $green;
+          cursor: pointer;
+        }
+
+        &:nth-of-type(3) {
+          span:nth-of-type(1) {
+            .fas {
+              transform: rotate(-255deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}
