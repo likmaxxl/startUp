@@ -60,6 +60,9 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+  @media all and (min-width: 992px) {
+    #main-header {
+      background: none; } }
   #main-header .rel {
     display: none; }
   @media all and (min-width: 992px) {

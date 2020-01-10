@@ -3,6 +3,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  &{
+    @media all and (min-width:992px){
+      background:none;
+    }
+  }
   .rel{
     display: none;
   }
