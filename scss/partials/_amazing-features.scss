@@ -49,6 +49,25 @@
           color: $green;
         }
       }
+    
+      &:after{
+        top:14px;
+        right:50px
+      }
+        &:before{
+        top:17px;
+        left:52px
+      }
+       @media all and(min-width:1200px) {
+           &:after{
+        top:14px;
+        right:91px
+      }
+        &:before{
+        top:17px;
+        left:93px
+      }
+      }
     }
   }
 

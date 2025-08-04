@@ -17,6 +17,7 @@ background-color: rgba(128, 235, 167,.2);
 height:100vh;
   }
   .rel{
+    width: 100%;
     display: block;
 position: absolute;
 height:100vh;
@@ -136,13 +137,22 @@ video{
           text-align: center;
 
           &:before {
+            left: -10px;
+          }
+
+          &:after {
+            right: -8px;
+          }
+        }
+            @media all and(min-width:1200px) {
+     &:before {
             left: -6px;
           }
 
           &:after {
-            right: -7px;
+            right: -6px;
           }
-        }
+            }
       }
 
     }

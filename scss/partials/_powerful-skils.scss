@@ -38,6 +38,22 @@
           color: $green;
         }
       }
+            &:after{
+        top:13px;
+        right:47px
+      }
+        &:before{
+        top:14px;
+        left:48px
+      }
+      @media all and (min-width: 1200px) {
+            &:after{
+        right:89px
+      }
+        &:before{
+        left:89px
+      }
+      }
     }
   }
 

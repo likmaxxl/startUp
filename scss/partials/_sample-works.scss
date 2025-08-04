@@ -1,6 +1,6 @@
 #sample-works {
   padding: 70px 0;
-  background-color: rgb(249,249,249);
+  background-color: rgb(249, 249, 249);
 
   & {
     @media all and(min-width:768px) {
@@ -50,6 +50,22 @@
           color: $green;
         }
       }
+      &:after {
+        top: 13px;
+        right: 91px;
+      }
+      &:before {
+        top: 14px;
+        left: 89px;
+      }
+      @media screen and (min-width: 1200px) {
+        &:after {
+          right: 131px;
+        }
+        &:before {
+          left: 132px;
+        }
+      }
     }
   }
 
@@ -73,7 +89,7 @@
           bottom: 0;
           left: 0;
           right: 0;
-          background-color: rgba(0,169,157,.9);
+          background-color: rgba(0, 169, 157, 0.9);
           overflow: hidden;
           width: 0;
           height: 100%;

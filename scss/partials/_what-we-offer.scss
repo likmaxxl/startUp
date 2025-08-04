@@ -6,11 +6,10 @@
       padding-bottom: 120px;
     }
   }
-nav{
-  z-index: 9999;
-}
+  nav {
+    z-index: 9999;
+  }
   .nav {
-
     & {
       @media all and(min-width:476px) {
         padding: 0.5rem 1.3rem;
@@ -27,21 +26,20 @@ nav{
   .navbar-light {
     .navbar-nav {
       .nav-link {
-
         text-transform: uppercase;
-        &{
-          @media all and(min-width:1200px){
-            padding:0 20px;
+        & {
+          @media all and(min-width:1200px) {
+            padding: 0 20px;
           }
         }
       }
     }
-    .navbar-toggler{
-      border:none;
+    .navbar-toggler {
+      border: none;
       outline: none;
       box-shadow: none;
-      &:focus{
-        border:none;;
+      &:focus {
+        border: none;
         outline: none;
         box-shadow: none;
       }
@@ -110,6 +108,12 @@ nav{
         &:nth-of-type(3) {
           color: $green;
         }
+      }
+      &:after {
+        top:14px;
+      }
+          &:before {
+        top:17px;
       }
     }
   }
