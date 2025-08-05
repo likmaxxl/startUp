@@ -43,6 +43,22 @@
           color: $green;
         }
       }
+        &:after {
+        top: 13px;
+        right:71px;
+      }
+      &:before {
+        top: 14px;
+        left: 68px;
+      }
+      @media screen and (min-width: 1200px) {
+        &:after {
+          right: 110px;
+        }
+        &:before {
+          left: 110px;
+        }
+      }
     }
   }
   @media all and(min-width:768px) {

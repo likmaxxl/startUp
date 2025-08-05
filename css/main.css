@@ -160,7 +160,7 @@ section {
             background: transparent;
             position: absolute;
             left: 71px;
-            top: 20px; } }
+            top: 19px; } }
     @media all and (min-width: 992px) and (min-width: 1200px) {
       #main-header .head .start:before {
         left: 114px; } }
@@ -275,7 +275,7 @@ section {
             background: transparent;
             position: absolute;
             left: 71px;
-            top: 20px; } }
+            top: 19px; } }
     @media all and (min-width: 992px) and (min-width: 1200px) {
       #what-we-offer .head .start:before {
         left: 114px; } }
@@ -396,7 +396,7 @@ section {
             background: transparent;
             position: absolute;
             left: 71px;
-            top: 20px; } }
+            top: 19px; } }
     @media all and (min-width: 992px) and (min-width: 1200px) {
       #amazing-features .head .start:before {
         left: 114px; } }
@@ -549,7 +549,7 @@ section {
             background: transparent;
             position: absolute;
             left: 71px;
-            top: 20px; } }
+            top: 19px; } }
     @media all and (min-width: 992px) and (min-width: 1200px) {
       #powerful-skils .head .start:before {
         left: 114px; } }
@@ -667,7 +667,7 @@ section {
             background: transparent;
             position: absolute;
             left: 71px;
-            top: 20px; } }
+            top: 19px; } }
     @media all and (min-width: 992px) and (min-width: 1200px) {
       #sample-works .head .start:before {
         left: 114px; } }
@@ -707,7 +707,7 @@ section {
       #sample-works .head .start span:nth-of-type(3) {
         color: #00a99d; }
       #sample-works .head .start:after {
-        top: 13px;
+        top: 12px;
         right: 91px; }
       #sample-works .head .start:before {
         top: 14px;
@@ -835,7 +835,7 @@ section {
             background: transparent;
             position: absolute;
             left: 71px;
-            top: 20px; } }
+            top: 19px; } }
     @media all and (min-width: 992px) and (min-width: 1200px) {
       #powerful-skils .head .start:before {
         left: 114px; } }
@@ -924,7 +924,7 @@ section {
             background: transparent;
             position: absolute;
             left: 71px;
-            top: 20px; } }
+            top: 19px; } }
     @media all and (min-width: 992px) and (min-width: 1200px) {
       #company-facts .head .start:before {
         left: 114px; } }
@@ -963,6 +963,17 @@ section {
         color: #e4e4e4; }
       #company-facts .head .start span:nth-of-type(3) {
         color: #00a99d; }
+      #company-facts .head .start:after {
+        top: 13px;
+        right: 84px; }
+      #company-facts .head .start:before {
+        top: 14px;
+        left: 84px; }
+      @media screen and (min-width: 1200px) {
+        #company-facts .head .start:after {
+          right: 126px; }
+        #company-facts .head .start:before {
+          left: 125px; } }
   #company-facts p {
     color: #606060;
     padding: 10px 0 20px; }
@@ -1094,7 +1105,7 @@ section {
             background: transparent;
             position: absolute;
             left: 71px;
-            top: 20px; } }
+            top: 19px; } }
     @media all and (min-width: 992px) and (min-width: 1200px) {
       #team-members .head .start:before {
         left: 114px; } }
@@ -1133,6 +1144,17 @@ section {
         color: #e4e4e4; }
       #team-members .head .start span:nth-of-type(3) {
         color: #00a99d; }
+      #team-members .head .start:after {
+        top: 13px;
+        right: 89px; }
+      #team-members .head .start:before {
+        top: 15px;
+        left: 88px; }
+      @media screen and (min-width: 1200px) {
+        #team-members .head .start:after {
+          right: 130px; }
+        #team-members .head .start:before {
+          left: 130px; } }
   #team-members p {
     color: #606060;
     padding: 10px 22px 20px; }
@@ -1369,7 +1391,7 @@ section {
             background: transparent;
             position: absolute;
             left: 71px;
-            top: 20px; } }
+            top: 19px; } }
     @media all and (min-width: 992px) and (min-width: 1200px) {
       #cheap-prices .head .start:before {
         left: 114px; } }
@@ -1408,6 +1430,17 @@ section {
         color: #333333; }
       #cheap-prices .head .start span:nth-of-type(3) {
         color: #00a99d; }
+      #cheap-prices .head .start:after {
+        top: 13px;
+        right: 71px; }
+      #cheap-prices .head .start:before {
+        top: 14px;
+        left: 68px; }
+      @media screen and (min-width: 1200px) {
+        #cheap-prices .head .start:after {
+          right: 110px; }
+        #cheap-prices .head .start:before {
+          left: 110px; } }
   @media all and (min-width: 768px) {
     #cheap-prices .row {
       padding-bottom: 50px; } }
